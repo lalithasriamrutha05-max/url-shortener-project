@@ -13,7 +13,17 @@ A simple URL Shortener built using Pyhton Flask.
 - Python
 - Flask
 - HTML
--CSS
+- CSS
+
+## Project Structure
+
+URL_SHORTENER/
+|-- app.py
+|-- templates/
+|       |__ index.html
+|__ static/
+       |__ style.css
+
 
 ## Author
 
