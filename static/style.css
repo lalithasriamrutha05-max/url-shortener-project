@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container {
+    background: white;
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Input Box */
+input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #667eea;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5563d6;
+    transform: translateY(-2px);
+}
+
+/* Result Box */
+.result {
+    margin-top: 25px;
+    padding: 15px;
+    background: #f5f7ff;
+    border-radius: 10px;
+}
+
+.result h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.result a {
+    text-decoration: none;
+    color: #667eea;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.result a:hover {
+    text-decoration: underline;
+}
