@@ -18,11 +18,11 @@ A simple URL Shortener built using Pyhton Flask.
 ## Project Structure
 
 URL_SHORTENER/
-|-- app.py
-|-- templates/
-|       |__ index.html
-|__ static/
-       |__ style.css
+├── app.py
+├── templates/
+│   └── index.html
+└── static/
+    └── style.css
 
 
 ## Author
